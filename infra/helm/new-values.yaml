@@ -40,9 +40,9 @@ ports:
 
 envs:
   - name: VAULT_SECRET_USER
-    value: <path:kv-v2/data/demo#username>
+    value: <path:secret/data/sampleapp/config#username>
   - name: VAULT_SECRET_PASSWORD
-    value: <path:kv-v2/data/demo#password>
+    value: <path:secret/data/sampleapp/config#password>
 
 log:
   level:
